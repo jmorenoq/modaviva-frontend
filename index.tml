@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Moda</title>
+    <!-- Bootstrap CSS sin JavaScript -->
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../recursos/imagenes/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navegacion-principal navegacion-principal--tipo-light">
+        <div class="navegacion-principal__contenedor">
+            <a class="navegacion-principal__logo" href="index.html">
+                <img src="../recursos/imagenes/logo.png" alt="Logo Tienda" width="100">
+            </a>
+            <button class="navegacion-principal__boton-toggle" type="button">
+                <span class="navegacion-principal__toggle-icono"></span>
+            </button>
+            <div class="navegacion-principal__menu">
+                <ul class="navegacion-principal__lista">
+                    <li class="navegacion-principal__item navegacion-principal__item--activo">
+                        <a class="navegacion-principal__enlace" href="index.html">Inicio</a>
+                    </li>
+                    <li class="navegacion-principal__item">
+                        <a class="navegacion-principal__enlace" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="navegacion-principal__item">
+                        <a class="navegacion-principal__enlace" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="navegacion-principal__item">
+                        <a class="navegacion-principal__enlace" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="seccion-hero seccion-hero--tipo-primario">
+        <div class="seccion-hero__contenedor">
+            <div class="seccion-hero__contenido">
+                <h1 class="seccion-hero__titulo">Tu Tienda de Moda</h1>
+                <p class="seccion-hero__descripcion">Descripción principal de tu negocio</p>
+                <a class="seccion-hero__boton seccion-hero__boton--primario" href="sobre-nosotros.html">Conoce Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="pie-pagina">
+        <div class="pie-pagina__contenedor">
+            <div class="pie-pagina__columna">
+                <h3 class="pie-pagina__titulo">Información de Contacto</h3>
+                <p class="pie-pagina__direccion">Dirección: Calle Ejemplo 123</p>
+                <p class="pie-pagina__telefono">Teléfono: +56 9 8765 4321</p>
+                <p class="pie-pagina__email">Email: contacto@tienda.cl</p>
+            </div>
+            <div class="pie-pagina__columna">
+                <h3 class="pie-pagina__titulo">Redes Sociales</h3>
+                <ul class="pie-pagina__lista">
+                    <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Instagram</a></li>
+                    <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Facebook</a></li>
+                    <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="pie-pagina__columna">
+                <h3 class="pie-pagina__titulo">Horarios de Atención</h3>
+                <p class="pie-pagina__texto">Lunes a Viernes: 10:00 - 19:00</p>
+                <p class="pie-pagina__texto">Sábado: 11:00 - 18:00</p>
+                <p class="pie-pagina__texto">Domingo: Cerrado</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
